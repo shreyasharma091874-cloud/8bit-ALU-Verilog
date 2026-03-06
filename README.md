@@ -1,6 +1,5 @@
 #  8-bit Arithmetic Logic Unit (ALU) using Verilog
 
-
 ---
 
 #  Project Overview
@@ -62,7 +61,7 @@ The result of the selected arithmetic or logical operation.
 | 110     | LEFT SHIFT  | A << 1             |
 | 111     | RIGHT SHIFT | A >> 1             |
 
-# 🚩 ALU Status Flags
+#  ALU Status Flags
 
 Modern processors use status flags to indicate the result of arithmetic operations.
 
@@ -104,12 +103,11 @@ Hexadecimal Result = 0F
 
 ---
 
+
 #  Simulation Waveform
-# 📈 Simulation Waveform
 
 The waveform verifies the correct operation of the ALU.  
 Different operations are selected by changing the **ALU_Sel control signal**.
-
 
 
 ---
