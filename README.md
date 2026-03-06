@@ -1,6 +1,9 @@
 #  8-bit Arithmetic Logic Unit (ALU) using Verilog
 
 ---
+![Verilog](https://img.shields.io/badge/Language-Verilog-blue)
+![Digital Design](https://img.shields.io/badge/Domain-Digital%20Design-green)
+![Simulation](https://img.shields.io/badge/Simulation-GTKWave-orange)
 
 #  Project Overview
 
@@ -108,6 +111,8 @@ Hexadecimal Result = 0F
 
 The waveform verifies the correct operation of the ALU.  
 Different operations are selected by changing the **ALU_Sel control signal**.
+
+<img width="1338" height="1002" alt="image" src="https://github.com/user-attachments/assets/de940d62-7ca9-484f-9e17-e5b16083bb2d" />
 
 
 ---
