@@ -1,8 +1,6 @@
 #  8-bit Arithmetic Logic Unit (ALU) using Verilog
 
 
-\
-
 ---
 
 #  Project Overview
