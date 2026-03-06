@@ -65,25 +65,22 @@ The result of the selected arithmetic or logical operation.
 ---
 
 #  Example Calculation
-
 For simulation the inputs used are:
 
-A = 10
-B = 5
+A = 10 (00001010)  
+B = 5  (00000101)
 
-### Addition
+### Addition Operation
 
-Binary:
+Binary Addition:
 
-1111
+00001010
++00000101
+---------
+00001111
 
-Decimal Result:
-
-15
-
-Hexadecimal Result:
-
-0F
+Decimal Result = 15  
+Hexadecimal Result = 0F
 
 ---
 
@@ -114,9 +111,6 @@ Contains the main Verilog module implementing the ALU operations.
 
 Testbench used to simulate and verify the ALU functionality.
 
-**waveform.png**
-
-Screenshot of the simulation waveform from GTKWave.
 
 ---
 
