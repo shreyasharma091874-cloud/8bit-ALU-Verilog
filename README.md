@@ -189,6 +189,7 @@ Arithmetic Logic Units are widely used in:
 #  Author
 
 Shreya Sharma
+
 Electronics and Communication Engineering
 
 ---
