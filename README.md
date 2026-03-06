@@ -62,6 +62,26 @@ The result of the selected arithmetic or logical operation.
 | 110     | LEFT SHIFT  | A << 1             |
 | 111     | RIGHT SHIFT | A >> 1             |
 
+# 🚩 ALU Status Flags
+
+Modern processors use status flags to indicate the result of arithmetic operations.
+
+Future versions of this ALU can include the following flags:
+
+Carry Flag (C)
+Indicates overflow from the most significant bit during addition.
+
+Zero Flag (Z)
+Set to 1 when the ALU output is zero.
+
+Overflow Flag (V)
+Indicates signed arithmetic overflow.
+
+Sign Flag (S)
+Indicates whether the result is negative.
+
+These flags are used in CPU architectures to support conditional branching and advanced instruction execution.
+
 ---
 
 #  Example Calculation
@@ -85,8 +105,12 @@ Hexadecimal Result = 0F
 ---
 
 #  Simulation Waveform
+# 📈 Simulation Waveform
 
-The waveform verifies that the ALU performs the correct operation depending on the **ALU_Sel control signal**.
+The waveform verifies the correct operation of the ALU.  
+Different operations are selected by changing the **ALU_Sel control signal**.
+
+
 
 ---
 
